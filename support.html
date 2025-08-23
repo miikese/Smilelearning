@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support · My Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+<header>
+  <nav class="nav container">
+    <strong>My Website</strong>
+    <span style="flex:1"></span>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="support.html">Support</a>
+  </nav>
+</header>
+
+  <main class="container">
+    <h1>Support</h1>
+    <div class="card">
+      <h3>FAQ</h3>
+      <p><strong>Q:</strong> How do I update this site?<br/>
+      <strong>A:</strong> Edit the files in your GitHub repository and commit.</p>
+      <p><strong>Q:</strong> How do I change the site name?<br/>
+      <strong>A:</strong> Open each HTML file and replace <em>My Website</em> with your preferred name.</p>
+    </div>
+  </main>
+  
+<footer>
+  <div class="container">© <span id="year"></span> My Website · Built with GitHub Pages</div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</footer>
+
+</body>
+</html>
