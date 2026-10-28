@@ -1,28 +1,14 @@
-# Smilelearning Pages
+# Smile Learning
 
-An early HTML experiment containing a home page and a support page. It explores simple navigation, FAQ content, and basic page structure.
+A complete small static learning prototype with connected home, about, contact and support pages. Built with HTML and CSS; no accounts, backend, analytics or invented testimonials. Includes a responsive layout, visible keyboard focus, skip links and real feedback links.
 
-## Contents
-
-- `index.html`: starter home page.
-- `support.html`: support and FAQ markup.
-
-## Status
-
-Incomplete learning experiment. The markup references `styles.css`, `about.html`, and `contact.html`, which are not included in this repository at the time of this review.
-
-This repository is separate from the implemented React-based [Smile Learning](https://github.com/miikese/past-quest-solver) application.
-
-## Inspect locally
-
-Open the HTML files directly, or serve the repository with Python 3:
+## Run locally
 
 ```sh
-python3 -m http.server 8000
+cd Smilelearning
+python3 -m http.server 3311 --bind 127.0.0.1
 ```
 
-Open http://localhost:8000. Referenced missing pages and styles remain unavailable.
+Open http://localhost:3311. The repository root can also be published on GitHub Pages. No build or dependencies are required.
 
-## Author
-
-**Michael Ikese Emmanuel** · [@miikese](https://github.com/miikese) · [Engineering portfolio](https://github.com/miikese/portfolio-site)
+Author: Michael Ikese Emmanuel · [GitHub](https://github.com/miikese).
